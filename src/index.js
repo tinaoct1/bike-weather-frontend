@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom';
 import axios from 'axios';
 import moment from 'moment';
 import './styles.css';
-const API_HOST = process.env.APP_ENV === "PRODUCTION" ? "https://bike-weather.herokuapp.com/api/v1":
-	"http://localhost:3000/api/v1"
+const API_HOST = "https://bike-weather.herokuapp.com/api/v1"
 function App() {
 	const [stations, setStations] = useState(null);
 	const [at, setAt] = useState(null);
