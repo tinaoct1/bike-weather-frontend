@@ -14,7 +14,7 @@ function App() {
 			url,
 			{
 				headers: {
-					"api-token": "dev-123",
+					"api-token": "prod1234",
 					'Content-Type': 'application/json',
 				}
 			}
